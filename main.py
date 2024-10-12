@@ -2,7 +2,7 @@ import uvicorn
 from fastapi import FastAPI
 # from fastapi import FastAPI,Depends,status,Response,HTTPException
 # from schema import blog_schema, showblog_schema,User_schema,showUser_schema
-from models import Base,Blog_models,user_models
+from database import Base,Blog_models,user_models
 from database import engine,SessionLocal,get_db
 # from sqlalchemy.orm import Session
 # from hashing import hash
